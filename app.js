@@ -12,6 +12,6 @@ chatRoute(app);
 const notFoundRoute = require('./app/routes/404.js');
 notFoundRoute(app);
 
-app.listen(3000, () => {
+app.listen(3000 || process.env.PORT, () => {
     console.log('Listening on port 3000');
 });
