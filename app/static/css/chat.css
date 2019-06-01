@@ -1,0 +1,10 @@
+body {
+  background-color: turquoise;
+}
+
+#msgs {
+  background-color: red;
+  overflow: auto;
+  width: 900px;
+  height: 500px;
+}
